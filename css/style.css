@@ -164,12 +164,27 @@ p+p {
 }
 
 .nav-brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
     font-family: var(--serif);
     font-weight: 700;
     font-size: 1.3rem;
     text-decoration: none;
     letter-spacing: .06em;
-    color: var(--gold-d)
+    color: var(--gold-d);
+    padding: 0 .5rem;
+    line-height: 1;
+}
+
+.nav-brand img {
+    display: block;
+    width: auto;
+    height: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .burger {
