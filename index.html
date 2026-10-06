@@ -58,7 +58,7 @@
             alt="Logotipo Rabo de Galo Cachaça Artesanal"
             width="360"
           />
-          <h1>Feita Daqui<br /><em>Sabor e Tradição</em></h1>
+          <h1><em>Sabor e Tradição</em></h1>
           <p>
             Cachaça artesanal feita daqui, carregando sabores, memórias e
             histórias que atravessaram gerações.
@@ -243,6 +243,60 @@
         </div>
       </section>
 
+      <!--
+        GARRAFAS
+        Coloque as fotos em assets/ com os nomes 1.png, 2.png, 3.png.
+        Para adicionar mais, copie um bloco <figure class="bottle"> inteiro
+        e troque o número do arquivo (ex.: assets/4.png) e a legenda.
+        Se a imagem ainda não existir, a moldura aparece vazia, sem quebrar o layout.
+      -->
+      <section id="garrafas" class="section bottles">
+        <div class="wrap">
+          <header class="sec-head reveal">
+            <span class="kicker">Nossas garrafas</span>
+            <h2>Cada garrafa, um jeito de contar</h2>
+            <div class="divider">
+              <svg><use href="#leaf" /></svg>
+            </div>
+          </header>
+          <div class="bottle-grid">
+            <figure class="bottle reveal">
+              <div class="bottle-frame">
+                <img
+                  src="assets/1.png"
+                  alt="Garrafa de cachaça Rabo de Galo de mel"
+                  loading="lazy"
+                  onerror="this.remove()"
+                />
+              </div>
+              <figcaption>Mel</figcaption>
+            </figure>
+            <figure class="bottle reveal">
+              <div class="bottle-frame">
+                <img
+                  src="assets/2.png"
+                  alt="Garrafa de cachaça Rabo de Galo de cacau com pimenta"
+                  loading="lazy"
+                  onerror="this.remove()"
+                />
+              </div>
+              <figcaption>Cacau com Pimenta</figcaption>
+            </figure>
+            <figure class="bottle reveal">
+              <div class="bottle-frame">
+                <img
+                  src="assets/3.png"
+                  alt="Garrafa de cachaça Rabo de Galo de maracujá"
+                  loading="lazy"
+                  onerror="this.remove()"
+                />
+              </div>
+              <figcaption>Maracujá</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <section id="nos" class="section knots">
         <div class="wrap narrow center">
           <header class="sec-head reveal">
@@ -331,7 +385,6 @@
           <p>E algumas garrafas amarradas com sete nós.</p>
           <p class="brand-end">RABO DE GALO</p>
           <p class="sub-end">Cachaça Artesanal</p>
-          <p class="slogan">Pequena na garrafa. Grande nas histórias.</p>
         </div>
       </section>
 
